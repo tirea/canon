@@ -145,7 +145,7 @@ def gen_footer(outfile):
 
 def main():
 	infile = "language_updates.tsv"
-	outfile = "language_updates_test.html"
+	outfile = "language_updates.html"
 	gen_title(outfile)
 	gen_toc(infile, outfile)
 	gen_posts(infile, outfile)
